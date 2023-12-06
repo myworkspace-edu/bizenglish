@@ -9,32 +9,12 @@
         <relativePath>../pom.xml</relativePath>
 	</parent>
 <!-- 	<groupId>org.sakaiproject.edu.english</groupId> -->
-	<artifactId>bizenglish-impl</artifactId>
+	<artifactId>bizenglish-jpa</artifactId>
 	<packaging>jar</packaging>
 	<dependencies>
-
 		<dependency>
-			<groupId>org.sakaiproject.edu.english</groupId>
-			<artifactId>bizenglish-api</artifactId>
-		</dependency>
-        <dependency>
-            <groupId>org.sakaiproject.edu.english</groupId>
-            <artifactId>bizenglish-common</artifactId>
-            <version>${module.version}</version>
-        </dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
-
-		<!-- Sakai dependencies -->
-		<dependency>
-			<groupId>org.sakaiproject.kernel</groupId>
-			<artifactId>sakai-kernel-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.sakaiproject.kernel</groupId>
-			<artifactId>sakai-component-manager</artifactId>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
 		</dependency>
 
 	</dependencies>

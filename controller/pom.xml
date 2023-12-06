@@ -28,6 +28,16 @@
             <artifactId>bizenglish-impl</artifactId>
 <!--             <version>${module.version}</version> -->
         </dependency>
+        <dependency>
+            <groupId>org.sakaiproject.edu.english</groupId>
+            <artifactId>bizenglish-jpa</artifactId>
+            <version>${module.version}</version>
+        </dependency>
+		<dependency>
+            <groupId>org.sakaiproject.edu.english</groupId>
+            <artifactId>bizenglish-biz</artifactId>
+            <version>${module.version}</version>
+        </dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -69,7 +79,7 @@
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
-        <version>4.0.1</version>
+<!--        <version>4.0.1</version>-->
 <!--         <scope>provided</scope> -->
       </dependency>
 <!--         <dependency> -->
@@ -84,11 +94,6 @@
 <!--         </dependency> -->
 		
 		<!-- Sakai dependencies -->
-        <dependency>
-            <groupId>org.sakaiproject.kernel</groupId>
-            <artifactId>sakai-kernel-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
 		<dependency>
             <groupId>org.sakaiproject.kernel</groupId>
             <artifactId>sakai-component-manager</artifactId>
